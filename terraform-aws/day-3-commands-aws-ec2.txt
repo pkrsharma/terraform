@@ -1,0 +1,47 @@
+mkdir terraform-aws
+  149  aws s3 ls
+  150  sudo apt install awscli
+  151  sudo apt  install awscli
+  152  sudo snap install aws-cli
+  153  sudo snap install aws-cli --classic
+  154  aws s3 ls
+  155  aws configure
+  156  aws s3 ls
+  157  cd terraform-aws/
+  158  aws s3 ls
+  159  export AWS_ACCESS_KEY=AKIA3***********
+  160  export AWS_SECRET_ACCESS_KEY=t***h/iA************isqBCEheUeSj8
+  161  vim main.tf
+  162  terraform init
+  163  ls
+  164  ls -la
+  165  vim main.tf
+  166  terraform init
+  167  terraform plan
+  168  terraform apply
+  169  vim main.tf
+  170  terraform apply
+  171  vim main.tf
+  172  terraform plan
+  173  vim main.tf
+  174  terraform plan
+  175  vim main.tf
+  176  terraform plan
+  177  terraform apply
+  178  vim main.tf
+  179  terraform plan
+  180  terraform apply
+  181  vim main.tf
+  182  terraform plan
+  183  vim main.tf
+  184  terraform plan
+  185  vim main.tf
+  186  terraform plan
+  187  terraform apply
+  188  vim main.tf
+  189  terraform plan
+  190  vim main.tf
+  191  terraform plan
+  192  terraform apply
+  193  vim main.tf
+  194  terraform destroy

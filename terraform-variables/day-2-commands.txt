@@ -1,0 +1,69 @@
+73  mkdir terraform-variables
+   74  cd terraform-variables/
+   75  pwd
+   76  vim main.ts
+   77  terraform init
+   78  terraform validate
+   79  terraform plan
+   80  mv main.ts main.tf
+   81  ls
+   82  terraform init
+   83  terraform validate
+   84  terraform plan
+   85  terraform apply
+   86  ls
+   87  cat devops_test.txt 
+   88  vim variables.tf
+   89  vim main.tf 
+   90  terraform init
+   91  terraform plan
+   92  terraform apply
+   93  ls
+   94  cat devops-automated.txt 
+   95  cat devops-automated.txt \n
+   96  vim variables.tf
+   97  export TF_VAR_devops_op_trainer=MyVariableText
+   98  vi main.tf 
+   99  terraform apply
+  100  export TF_VAR_devops_op_trainer=MyVariableTextUpdated
+  101  terraform apply
+  102  vim variables.tf
+  103  vim main.tf 
+  104  terraform plan
+  105  terraform validate
+  106  terraform apply
+  107  ls
+  108  cat devops_test.txt 
+  109  vim variables.tf
+  110  vim main.tf 
+  111  vim variables.tf
+  112  vim main.tf 
+  113  vim variables.tf
+  114  terraform plan
+  115  vim variables.tf
+  116  terraform plan
+  117  vim main.tf 
+  118  terraform plan
+  119  terraform apply
+  120  ls
+  121  cd terraform-course/terraform-variables/
+  122  ls
+  123  vi variables.tf 
+  124  terraform validate
+  125  vi variables.tf 
+  126  terraform validate
+  127  vi variables.tf 
+  128  terraform validate
+  129  vi main.tf 
+  130  terraform apply
+  131  vi main.tf 
+  132  terraform apply
+  133  vi terraform-variables.tfvars.json
+  134  vi main.tf 
+  135  vi variables.tf 
+  136  terraform apply -var=terraform-variables.tfvars.json
+  137  terraform apply -var-file=terraform-variables.tfvars.json
+  138  vi variables.tf 
+  139  terraform apply -var-file=terraform-variables.tfvars.json
+  140  ls
+  141  cat terraform.tfstate.backup

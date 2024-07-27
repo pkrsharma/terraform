@@ -1,0 +1,67 @@
+ 1  ssh -i "terra-key.pem" ubuntu@ec2-13-233-136-188.ap-south-1.compute.amazonaws.com
+    2  scp -i "terra-key.pem" ubuntu@ec2-13-233-136-188.ap-south-1.compute.amazonaws.com:/home/ubuntu/terraform-course /home/pramod/Documents/terraform
+    3  exit
+    4  wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+    5  echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+    6  sudo apt update && sudo apt install terraform
+    7  terraform -v
+    8  sudo apt update
+    9  sudo apt-get install terraform
+   10  terraform -v
+   11  mkdir terraform-course
+   12  cd terraform-course/
+   13  ls
+   14  vim devops.txt
+   15  cat devops.txt 
+   16  mkdir terraform-local
+   17  cd terraform-local/
+   18  vim local.tf
+   19  pwd
+   20  vim local.tf
+   21  cat local.tf 
+   22  terraform validate 
+   23  terraform init
+   24  terraform validate 
+   25  ls -la
+   26  ls
+   27  terraform plan
+   28  terraform apply
+   29  ls 
+   30  cat devops_automated.txt p
+   31  cat devops_automated.txt
+   32  cat devops_automated.txt \n
+   33  ls -la
+   34  cat local.tf 
+   35  cat terraform.tfstate 
+   36  vim local.tf 
+   37  terraform plan
+   38  terraform init
+   39  terraform plan
+   40  ls -la
+   41  vim local.tf 
+   42  terraform plan
+   43  terraform validate
+   44  ls -la
+   45  terraform apply
+   46  terraform state
+   47  cat terraform.tfstate
+   48  cd ../
+   49  mkdir terraform-docker
+   50  cd terraform-docker/
+   51  vim main.tf
+   52  terraform validate
+   53  terraform init
+   54  terraform validate
+   55  terraform plan
+   56  sudo apt-get install docker.io
+   57  docker -v
+   58  terraform plan
+   59  sudo chown $USER /var/run/docker.sock 
+   60  terraform plan
+   61  terraform validate
+   62  ls -la
+   63  vi main.tf 
+   64  terraform apply
+   65  cat terraform.tfstate 
+   66  pwd
+   67  history
